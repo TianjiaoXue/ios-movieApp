@@ -8,7 +8,7 @@ User: Each user has to log in to use the app, and each user have their own profi
 Post: User can upload their comment and thoughts on certain movie. Each time uploading the post, a time stamp and id will be created automatically by Firebase. and author is the current logged in user.
 Movie: The source fetch from API instantly. But I am not using all of its json attribute. Only save the necessary part which is more straight forward for a user. The main attribute include movie_title, release_date, poster_path url, overview of the movie and vote average and total voted count from famous Website like IMDb.
 
-## FUncitons
+## Funcitons
 1.	User Controller Group: Including the basic authentication function like signup and login, which is mainly realized by Firebase Auth. Uploading user profile such as username and profile photo when signup is separated stored in Firebase database and storage. User Homepage can show the photo of user, check the saved and rated movies based on user previous action, start new posts and log out.
 SignUp – User has to sign up to use the app and the sign up and 
 Login – User Log in 
